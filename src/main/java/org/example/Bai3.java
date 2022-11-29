@@ -39,5 +39,15 @@ public class Bai3 {
         double pi = 3.14;
         double Cv = 2 * pi * r;
         System.out.println("Circumference = " + Cv);
+
+        //Hien thi ky tu tiep theo trong bang chu cai
+        char f = (char)(Sc.next().charAt(0)+1);
+        System.out.println(f);
+
+        //So sanh hai so
+        int thanh = Sc.nextInt();
+        int ha = Sc.nextInt();
+        boolean dung = thanh > ha;
+        System.out.println(dung);
     }
 }
