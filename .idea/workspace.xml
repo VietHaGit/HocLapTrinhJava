@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Hihi3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai4.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="loop in java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bai4">
+  <component name="RunManager" selected="Application.Bai5">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Bai1" />
       <module name="FirstJava1" />
@@ -93,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Bai5" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai4" />
         <item itemvalue="Application.Bai3" />
         <item itemvalue="Application.Bai2" />
@@ -132,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669610650463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="If and else in java">
+      <created>1669712937543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669712937543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +187,8 @@
     <MESSAGE value="buoi1" />
     <MESSAGE value="Hihi" />
     <MESSAGE value="Hihi3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hihi3" />
+    <MESSAGE value="If and else in java" />
+    <MESSAGE value="loop in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="loop in java" />
   </component>
 </project>
