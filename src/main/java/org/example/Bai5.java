@@ -116,6 +116,7 @@ public class Bai5 {
          */
 
         //Repeat a loop many times
+        /*
         int count = 0;
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
@@ -124,5 +125,15 @@ public class Bai5 {
             }
             System.out.println();
         }
+         */
+
+        //Max
+        int max = 0;
+        for(int i = 1 ; i < 5; i ++){
+            if (max < i){
+                max = i;
+            }
+        }
+        System.out.print(max );
     }
 }
