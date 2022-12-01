@@ -102,5 +102,57 @@ public class Bai6 {
                 System.out.print(i1+ " ");
             }
             */
+        //Prints all odd numbers from 1 to 100.
+        /*
+        for (int i = 1 ; i<=100; i++){
+            if (i % 2==0){
+                continue;
+            }
+            System.out.print(i+" ");
+        }
+
+
+        int i = 0;
+        while (i<=100){
+            i++;
+            if (i % 2 == 0){
+                continue;
+            }
+            System.out.print(i+" ");
+        }
+         */
+
+
+        //prints numbers from 1 to 5 using do-while loop.
+        /*
+        for (int i = 1; i <=5; i++){
+            System.out.print(i+" ");
+        }
+
+        int i = 1;
+        while (i<=5){
+            System.out.print(i+" ");
+            i++;
+        }
+
+        int i = 1;
+        do {
+            System.out.print(i+" ");
+            i++;
+        }while (i<=5);
+         */
+
+        // print all numbers from 1 to 1000 (including 1 and 1000), which end with 0.
+        /*
+        int i = 1;
+        do {
+            if (i%10 ==0){
+            System.out.print(i+ " ");
+        }
+            i++;
+        }while (i<=1000);
+         */
+
+
     }
 }

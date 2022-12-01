@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="loop in java :))">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai6.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="While and do while in java :v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669779358293</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="While and do while in java :v">
+      <created>1669784932442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669784932442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +204,8 @@
     <MESSAGE value="If and else in java" />
     <MESSAGE value="loop in java" />
     <MESSAGE value="loop in java :))" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop in java :))" />
+    <MESSAGE value="While and do while in java :))" />
+    <MESSAGE value="While and do while in java :v" />
+    <option name="LAST_COMMIT_MESSAGE" value="While and do while in java :v" />
   </component>
 </project>
