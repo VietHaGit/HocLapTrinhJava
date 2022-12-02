@@ -129,11 +129,20 @@ public class Bai5 {
 
         //Max
         int max = 0;
-        for(int i = 1 ; i < 5; i ++){
+        for(int i = 1 ; i < 6; i ++){
             if (max < i){
                 max = i;
             }
         }
         System.out.print(max );
+
+        //Min
+        int Min = 0;
+        for(int i = 1 ; i < 6; i++){
+            if (Min > i){
+                Min = i;
+            }
+        }
+        System.out.print(Min);
     }
 }

@@ -171,6 +171,30 @@ public class Bai7 {
 
          */
 
-
+        //Write a program that accepts arr from the user and calculates the sum of numbers in arr, which are divisible by 5.
+        /*
+        int n = Sc.nextInt();
+        int m = Sc.nextInt();
+        int[][] arr = new int[n][m];
+        for (int i = 0 ; i < n; i ++){
+            for (int j = 0; j < n ; j++){
+                arr[i][j] = Sc.nextInt();
+            }
         }
+
+        int aswer = 0;
+        for (int i = 0 ; i < n; i ++) {
+            for (int j = 0; j < n; j++) {
+
+                if (arr[i][j] % 5 == 0){
+                    aswer += arr[i][j];
+                }
+            }
+        }
+        System.out.print(aswer);
+
+         */
+
+
     }
+}
