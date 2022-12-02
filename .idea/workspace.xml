@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="max a">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayExercises.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="ex array:v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +39,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayExercises">
+  <component name="RunManager" selected="Application.Bai8">
     <configuration name="ArrayExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArrayExercises" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Bai4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bai8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Bai8" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai8" />
         <item itemvalue="Application.ArrayExercises" />
         <item itemvalue="Application.Bai7" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai6" />
-        <item itemvalue="Application.Bai4" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669898802300</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ex array:v">
+      <created>1669970546729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669970546729</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +240,8 @@
     <MESSAGE value="arrays in java :v" />
     <MESSAGE value="max" />
     <MESSAGE value="max a" />
-    <option name="LAST_COMMIT_MESSAGE" value="max a" />
+    <MESSAGE value="ex array" />
+    <MESSAGE value="ex array:v" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex array:v" />
   </component>
 </project>
