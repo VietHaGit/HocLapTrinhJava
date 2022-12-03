@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="ex array:v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai8.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="String in java:v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,19 +67,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Bai6" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Bai7" />
       <module name="FirstJava1" />
@@ -105,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.StringEx" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bai8" />
+        <item itemvalue="Application.StringEx" />
         <item itemvalue="Application.ArrayExercises" />
         <item itemvalue="Application.Bai7" />
         <item itemvalue="Application.Bai5" />
-        <item itemvalue="Application.Bai6" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669970546729</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="String in java:v">
+      <created>1669976075156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976075156</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +250,7 @@
     <MESSAGE value="max a" />
     <MESSAGE value="ex array" />
     <MESSAGE value="ex array:v" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex array:v" />
+    <MESSAGE value="String in java:v" />
+    <option name="LAST_COMMIT_MESSAGE" value="String in java:v" />
   </component>
 </project>
