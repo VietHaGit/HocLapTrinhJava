@@ -74,5 +74,20 @@ public class StringEx {
         System.out.println(S.substring(1 ,6));
         System.out.println(S.substring(3));
          */
+
+        //The Character method
+        /*
+        String S = Sc.next();
+        int dem = 0;
+        for (char c : S.toCharArray()){
+            if (Character.isUpperCase(c)){
+                dem ++;;
+            }
+        }
+        System.out.println(dem);
+        */
+
+        //
+
     }
 }
