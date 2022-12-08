@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="method:v">
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="method update:d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +39,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bai9">
+  <component name="RunManager" selected="Application.ForEx">
     <configuration name="ArrayExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArrayExercises" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Bai7" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -92,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ForEx" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.StringEx" />
       <module name="FirstJava1" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForEx" />
         <item itemvalue="Application.Bai9" />
         <item itemvalue="Application.StringEx" />
         <item itemvalue="Application.Bai8" />
         <item itemvalue="Application.ArrayExercises" />
-        <item itemvalue="Application.Bai7" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670229546362</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="method update:d">
+      <created>1670467546066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670467546067</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +260,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git" />
     <MESSAGE value="buoi1" />
     <MESSAGE value="Hihi" />
     <MESSAGE value="Hihi3" />
@@ -277,6 +283,8 @@
     <MESSAGE value="update string :))" />
     <MESSAGE value="method" />
     <MESSAGE value="method:v" />
-    <option name="LAST_COMMIT_MESSAGE" value="method:v" />
+    <MESSAGE value="method update:v" />
+    <MESSAGE value="method update:d" />
+    <option name="LAST_COMMIT_MESSAGE" value="method update:d" />
   </component>
 </project>
