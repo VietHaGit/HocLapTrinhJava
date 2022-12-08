@@ -1,5 +1,6 @@
 package org.example;
 
+import java.security.PublicKey;
 import java.util.Scanner;
 
 public class Bai9 {
@@ -150,5 +151,113 @@ public class Bai9 {
     }
      */
 
+    //Write a recursive function that computes and returns the result of n!
+    /*
+    public static int factorial(int n){
+        if (n==1){
+            return 1;
+        }
+        return n*factorial(n-1);
+    }
 
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        System.out.println(factorial(n));
+    }
+     */
+
+    //options 2
+    /*
+    public static int factorial(int n){
+        int a =1;
+        for (int i = 1; i <=n;i++){
+            a*=i;
+        }
+        return a;
+    }
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        System.out.println(factorial(n));
+    }
+     */
+
+    //Given an integer n, write a recursive function to return the sum of all odd numbers from 1 to n.
+    /*
+    public static int Sum(int n){
+        if (n ==1)
+        return 1;
+        if (n %2 == 0){
+            return Sum(n-1);
+        } else  {
+            return n + Sum(n-1);
+
+        }
+
+    }
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        System.out.println(Sum(n));
+    }
+     */
+
+    //options 2
+    /*
+    public static int Sum(int n) {
+        int a = 0;
+        for (int i = 0; i <= n; i++) {
+            if (i % 2 != 0) {
+                a += i;
+            }
+
+        }
+        return a;
+
+    }
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        System.out.println(Sum(n));
+    }
+     */
+
+    //Given an array arr of n integers. Write a recursive function calculating the sum of all numbers in arr.
+    /*
+    public static int SumOfArray(int[] arr , int n){
+        if (n == 1) return arr[0];
+        return arr[ n -1] + SumOfArray(arr,n-1);
+    }
+
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n;i++){
+            arr[i] = Sc.nextInt();
+        }
+        System.out.println(SumOfArray(arr,n));
+    }
+     */
+
+    //options 2;
+    /*
+    public static int SumOfArray(int[] arr, int n){
+        int Sum = 0;
+        for (int i = 0 ; i < n; i++){
+            Sum += arr[i];
+        }
+        return Sum;
+    }
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0 ; i<n;i++){
+            arr[i] = Sc.nextInt();
+        }
+        System.out.println(SumOfArray(arr,n));
+    }
+     */
 }
