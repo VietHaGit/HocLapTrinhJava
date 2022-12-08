@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="method update:d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment=" for loop ex :v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670467546067</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" for loop ex :v">
+      <created>1670470556150</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670470556151</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,8 +267,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="buoi1" />
-    <MESSAGE value="Hihi" />
     <MESSAGE value="Hihi3" />
     <MESSAGE value="If and else in java" />
     <MESSAGE value="loop in java" />
@@ -285,6 +290,8 @@
     <MESSAGE value="method:v" />
     <MESSAGE value="method update:v" />
     <MESSAGE value="method update:d" />
-    <option name="LAST_COMMIT_MESSAGE" value="method update:d" />
+    <MESSAGE value=" for loop ex" />
+    <MESSAGE value=" for loop ex :v" />
+    <option name="LAST_COMMIT_MESSAGE" value=" for loop ex :v" />
   </component>
 </project>
