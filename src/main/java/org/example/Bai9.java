@@ -191,7 +191,7 @@ public class Bai9 {
         if (n %2 == 0){
             return Sum(n-1);
         } else  {
-            return n + Sum(n-1);
+            return n + Sum(n-1);`
 
         }
 
