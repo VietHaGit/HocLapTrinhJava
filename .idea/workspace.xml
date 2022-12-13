@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment=" for loop ex :c">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai10.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="oop in java :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ArrayCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Math.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bai9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,46 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Entry">
-    <configuration name="Bai9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Bai9" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Entry1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry1" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.run12">
     <configuration name="Entry2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Entry2" />
       <module name="FirstJava1" />
@@ -96,12 +56,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ForEx" />
+    <configuration name="Run1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Run1" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.run" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.run" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.run12" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entry" />
+        <item itemvalue="Application.run12" />
+        <item itemvalue="Application.run (1)" />
         <item itemvalue="Application.Entry2" />
-        <item itemvalue="Application.Entry1" />
-        <item itemvalue="Application.ForEx" />
-        <item itemvalue="Application.Bai9" />
+        <item itemvalue="Application.run" />
+        <item itemvalue="Application.Run1" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670471582733</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="oop in java :d">
+      <created>1670836268848</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670836268848</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,8 +284,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="loop in java" />
-    <MESSAGE value="loop in java :))" />
     <MESSAGE value="While and do while in java :))" />
     <MESSAGE value="While and do while in java :v" />
     <MESSAGE value="While and do while in java new" />
@@ -303,17 +307,8 @@
     <MESSAGE value=" for loop ex :v" />
     <MESSAGE value=" for loop ex :d" />
     <MESSAGE value=" for loop ex :c" />
-    <option name="LAST_COMMIT_MESSAGE" value=" for loop ex :c" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/OOP/Student.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="oop in java :v" />
+    <MESSAGE value="oop in java :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop in java :d" />
   </component>
 </project>
