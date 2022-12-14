@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="oop in java :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ArrayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Math.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Static variables, static methods :v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +46,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.run12">
-    <configuration name="Entry2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry2" />
+  <component name="RunManager" selected="Application.Entry111">
+    <configuration name="Entry1001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry1001" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Run1" />
+    <configuration name="Entry102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry102" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.run" />
+    <configuration name="Entry11 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry11" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.run" />
+    <configuration name="Entry11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry11" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.run12" />
+    <configuration name="Entry111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry111" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.run12" />
-        <item itemvalue="Application.run (1)" />
-        <item itemvalue="Application.Entry2" />
-        <item itemvalue="Application.run" />
-        <item itemvalue="Application.Run1" />
+        <item itemvalue="Application.Entry111" />
+        <item itemvalue="Application.Entry11" />
+        <item itemvalue="Application.Entry11 (1)" />
+        <item itemvalue="Application.Entry1001" />
+        <item itemvalue="Application.Entry102" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670836268848</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Static variables, static methods :v">
+      <created>1670925434609</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670925434609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,8 +295,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="While and do while in java :))" />
-    <MESSAGE value="While and do while in java :v" />
     <MESSAGE value="While and do while in java new" />
     <MESSAGE value="While and do while in java new :v" />
     <MESSAGE value="arrays in java" />
@@ -309,6 +318,8 @@
     <MESSAGE value=" for loop ex :c" />
     <MESSAGE value="oop in java :v" />
     <MESSAGE value="oop in java :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop in java :d" />
+    <MESSAGE value="Static variables, static methods" />
+    <MESSAGE value="Static variables, static methods :v" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static variables, static methods :v" />
   </component>
 </project>
