@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Static variables, static methods :v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Time.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="pack , getter, setter :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PTB2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,46 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Entry111">
-    <configuration name="Entry1001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry1001" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Entry102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry102" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Entry11 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry11" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="Entry11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Entry11" />
       <module name="FirstJava1" />
@@ -112,13 +66,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PTB2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PTB2" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test1" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test12" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.PTB2" />
+        <item itemvalue="Application.Test12" />
         <item itemvalue="Application.Entry111" />
         <item itemvalue="Application.Entry11" />
-        <item itemvalue="Application.Entry11 (1)" />
-        <item itemvalue="Application.Entry1001" />
-        <item itemvalue="Application.Entry102" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670925434609</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="pack , getter, setter :d">
+      <created>1671018800327</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671018800327</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,8 +295,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="While and do while in java new" />
-    <MESSAGE value="While and do while in java new :v" />
     <MESSAGE value="arrays in java" />
     <MESSAGE value="arrays in java :v" />
     <MESSAGE value="max" />
@@ -320,6 +318,8 @@
     <MESSAGE value="oop in java :d" />
     <MESSAGE value="Static variables, static methods" />
     <MESSAGE value="Static variables, static methods :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static variables, static methods :v" />
+    <MESSAGE value="pack , getter, setter :v" />
+    <MESSAGE value="pack , getter, setter :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="pack , getter, setter :d" />
   </component>
 </project>
