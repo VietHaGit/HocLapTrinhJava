@@ -11,10 +11,10 @@ public class Circle {
     public double getCircrumference(){
         return radius * 2 * 3.14;
     }
-    public void display(){
-        System.out.println("Area:" + getArea());
-        System.out.println("Circrumference:" + getCircrumference());
-    }
+        public void display(){
+            System.out.println("Area:" + getArea());
+            System.out.println("Circrumference:" + getCircrumference());
+        }
 }
 class Entry2{
     public static void main(String[] args){
