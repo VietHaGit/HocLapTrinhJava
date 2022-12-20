@@ -1,6 +1,7 @@
 package OOP;
 
 public class Employee {
+    /*
     private int id;
     private String firstName;
     private String lastName;
@@ -54,5 +55,35 @@ class Entry101{
         System.out.println("Id:" + employee1.getId());
         System.out.println("FullName:" + employee1.getFullName());
         System.out.println("Salary:" + employee1.getSalary());
+    }
+     */
+
+    private String name;
+    private  int salary;
+    public Employee(String name , int salary){
+        this.name = name ;
+        this.salary = salary;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public void  setSalary(int salary){
+        this.salary = salary;
+    }
+    public String getName(){
+        return  name;
+    }
+    public int getSalary(){
+        return salary;
+    }
+    public void display(){
+        System.out.println("Name:" + getName());
+        System.out.println("Salary:"+ getSalary());
+    }
+}
+class entry4{
+    public static void main(String[] args){
+        Manager manager = new Manager("Ha",7000,200);
+        manager.display();
     }
 }

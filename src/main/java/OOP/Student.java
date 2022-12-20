@@ -179,7 +179,7 @@ class run12{
  */
 
     //setter,getter,contractor
-
+    /*
     private int id;
     private String name;
     private int age;
@@ -248,7 +248,77 @@ class run12{
         s.setScore(15);
         System.out.println(s.getScore());
     }
+     */
+
+
+   /*
+public  class Student extends Person {
+    private double gpa;
+
+    public Student(String name , int age,String address, double gpa){
+        super(name,age,address);
+        this.gpa = gpa;
+    }
+    public void setGpa(double gpa){
+        this.gpa = gpa;
+    }
+    public double getGpa(){
+        return gpa;
+    }
+    @Override
+    public void display(){
+        super.display();
+        System.out.println("GPA:" + getGpa());
+    }
+    */
+
+    //toString
+    /*
+    private String name;
+    private String address;
+    private double gpa;
+
+    public Student(String name , String address , double gpa){
+        this.gpa = gpa;
+        this.name = name;
+        this.address =address;
+    }
+    @Override
+    public  String toString(){
+        return "Name: " + name + ",Address:" + address + ",GPA:" + gpa;
+    }
 }
+
+class entry5{
+    public static void main(String[] args){
+        Student student = new Student("Ha" ,"ĐN",8.8);
+        System.out.println(student.toString());
+    }
+     */
+
+    //compare 2 objects in java
+    private int id;
+    private String name;
+    private String address;
+
+    public Student(int id, String name, String address){
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }
+    @Override
+    public boolean equals(Object obj){
+        return this.id == ((Student) obj).id;
+    }
+}
+class entry12{
+    public static void main(String[] args){
+        Student s1 = new Student(100,"Ha","ĐN");
+        Student s2 = new Student(100, "Ha","ĐN");
+        System.out.println(s1.equals(s2));
+    }
+}
+
 
 
 

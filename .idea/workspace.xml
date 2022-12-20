@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="PTb2 :d">
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment=" update PTb2 :v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PTB2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PTB2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +43,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="Entry11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry11" />
+  <component name="RunManager" selected="Application.entry12">
+    <configuration name="entry101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry101" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry111" />
+    <configuration name="entry102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry102" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PTB2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PTB2" />
+    <configuration name="entry12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry12" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test1" />
+    <configuration name="entry4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test12" />
+    <configuration name="entry5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry5" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.PTB2" />
-        <item itemvalue="Application.Test12" />
-        <item itemvalue="Application.Entry111" />
-        <item itemvalue="Application.Entry11" />
+        <item itemvalue="Application.entry12" />
+        <item itemvalue="Application.entry5" />
+        <item itemvalue="Application.entry4" />
+        <item itemvalue="Application.entry102" />
+        <item itemvalue="Application.entry101" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671218083147</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" update PTb2 :v">
+      <created>1671219157077</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671219157077</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,8 +313,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arrays in java :v" />
-    <MESSAGE value="max" />
     <MESSAGE value="max a" />
     <MESSAGE value="ex array" />
     <MESSAGE value="ex array:v" />
@@ -328,6 +336,8 @@
     <MESSAGE value="pack , getter, setter :v" />
     <MESSAGE value="pack , getter, setter :d" />
     <MESSAGE value="PTb2 :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="PTb2 :d" />
+    <MESSAGE value=" update PTb2 :d" />
+    <MESSAGE value=" update PTb2 :v" />
+    <option name="LAST_COMMIT_MESSAGE" value=" update PTb2 :v" />
   </component>
 </project>
