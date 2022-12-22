@@ -1,7 +1,7 @@
 package OOP;
 
 import java.io.PrintStream;
-
+/*
 public class Person {
     /*
     private int  Id;
@@ -288,5 +288,43 @@ class  entry102{
         Teacher teacher = new Teacher("Thanh",55,"DN", 1900);
         teacher.display();
     }
-     */
+
 }
+     */
+
+
+// Lớp trừu tượng
+/*
+public abstract class Person{
+    private String name;
+    private String address;
+
+    public Person(String name , String address){
+        this.name = name;
+        this.address = address;
+    }
+    public abstract void display(); // Phương thức trừu tượng
+
+    public String getName(){
+        return name;
+    }
+    public String getAddress(){
+        return address;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setAddress(String address){
+        this.address=address;
+    }
+}
+
+class entry4{
+    public static void main(String[] args){
+        Person person1 = new Employee("Ha","ĐN",200);
+        Person person2 = new Customer("Thanh","ĐN",10001);
+        person1.display();
+        person2.display();
+    }
+}
+ */

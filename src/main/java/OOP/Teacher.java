@@ -1,7 +1,7 @@
 package OOP;
-
+/*
 public class Teacher extends Person {
-    /*
+
     private  int salary;
     public Teacher(String name , int age , String address,int salary){
         super(name,age,address);
@@ -18,5 +18,6 @@ public class Teacher extends Person {
         super.display();
         System.out.println("Salary:" + getSalary());
     }
-     */
+
 }
+ */

@@ -1,5 +1,5 @@
 package OOP;
-
+/*
 public class Employee {
     /*
     private int id;
@@ -58,6 +58,7 @@ class Entry101{
     }
      */
 
+    /*
     private String name;
     private  int salary;
     public Employee(String name , int salary){
@@ -86,4 +87,50 @@ class entry4{
         Manager manager = new Manager("Ha",7000,200);
         manager.display();
     }
+}
+     */
+
+/*
+public class Employee extends Person{
+    private int salary;
+    public Employee(String name , String address, int salary){
+        super(name,address);
+        this.salary = salary;
+    }
+    @Override //Ghì đè phương thức trừu tượng
+        public void display(){
+        System.out.println("Name" + getName());
+        System.out.println("Address" + getAddress());
+        System.out.println("Salary" + salary);
+    }
+}
+ */
+
+// lớp trừu tượng kế thừa interface
+public abstract class  Employee implements IEmployee {
+    private String name;
+    private int paymentPerHour;
+
+    public Employee(String name , int paymentPerHour){
+        super();
+        this.name = name;
+        this.paymentPerHour = paymentPerHour;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setPaymentPerHour(int paymentPerHour) {
+        this.paymentPerHour = paymentPerHour;
+    }
+
+    public int getPaymentPerHour() {
+        return paymentPerHour;
+    }
+
 }

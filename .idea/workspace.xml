@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Inheritance in java :v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Animal.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="up-casting and down-casting :v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/PartTimeEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +53,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.entry13">
-    <configuration name="entry102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry102" />
+  <component name="RunManager" selected="Application.Entry6">
+    <configuration name="Entry6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry6" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry12" />
+    <configuration name="entry11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry11" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry13" />
+    <configuration name="entry4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.entry13" />
-        <item itemvalue="Application.entry12" />
+        <item itemvalue="Application.Entry6" />
         <item itemvalue="Application.entry5" />
         <item itemvalue="Application.entry4" />
-        <item itemvalue="Application.entry102" />
+        <item itemvalue="Application.entry4 (1)" />
+        <item itemvalue="Application.entry11" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671529889202</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="up-casting and down-casting :v">
+      <created>1671695019404</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671695019404</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,8 +337,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ex array:v" />
-    <MESSAGE value="String in java:v" />
     <MESSAGE value="update string" />
     <MESSAGE value="update string :v" />
     <MESSAGE value="update string :d" />
@@ -342,6 +360,8 @@
     <MESSAGE value=" update PTb2 :v" />
     <MESSAGE value="Inheritance in java :d" />
     <MESSAGE value="Inheritance in java :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance in java :v" />
+    <MESSAGE value="up-casting and down-casting :d" />
+    <MESSAGE value="up-casting and down-casting :v" />
+    <option name="LAST_COMMIT_MESSAGE" value="up-casting and down-casting :v" />
   </component>
 </project>

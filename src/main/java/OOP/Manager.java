@@ -1,5 +1,5 @@
 package OOP;
-
+/*
 public class Manager extends Employee {
     private int bonnus;
     public Manager(String name , int salary, int bonnus){
@@ -20,3 +20,4 @@ public class Manager extends Employee {
         super.display();
     }
 }
+ */
