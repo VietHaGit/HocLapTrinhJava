@@ -2,7 +2,7 @@ package OOP;
 
 public interface  IEmployee {
     int calculateSalary(); //public abstract
-    String getName(); // public static final
+    String getName(); // public abstract
 }
 
  class Entry6 {

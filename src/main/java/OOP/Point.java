@@ -4,6 +4,7 @@ import java.lang.*;
 import java.lang.Math;
 
 public class Point {
+    /*
     private double x;
     private  double y ;
     public Point(){
@@ -50,5 +51,32 @@ class Entry11 {
     p1.setXY(2.1,4.3);
     p2.setXY(3.3,4.7);
     System.out.println(p1.distance(p2));
+    }
+     */
+
+//Combined relationship between Line and Point
+
+    private int x;
+    private int y;
+
+    public Point(int x , int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
     }
 }

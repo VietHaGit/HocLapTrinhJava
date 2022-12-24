@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="up-casting and down-casting :v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/FullTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/IShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/PartTimeEmployee.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="interface in java:d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Polyline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +48,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Entry6">
-    <configuration name="Entry6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry6" />
+  <component name="RunManager" selected="Application.Entry4">
+    <configuration name="Entry4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry11" />
+    <configuration name="Entry7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Entry7" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry4" />
+    <configuration name="entry13 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry13" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry4" />
+    <configuration name="entry13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry13" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry5" />
+    <configuration name="entry201" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.entry201" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entry6" />
-        <item itemvalue="Application.entry5" />
-        <item itemvalue="Application.entry4" />
-        <item itemvalue="Application.entry4 (1)" />
-        <item itemvalue="Application.entry11" />
+        <item itemvalue="Application.Entry4" />
+        <item itemvalue="Application.entry13 (1)" />
+        <item itemvalue="Application.entry13" />
+        <item itemvalue="Application.entry201" />
+        <item itemvalue="Application.Entry7" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671695019404</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="interface in java:d">
+      <created>1671703837399</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671703837399</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,8 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update string" />
-    <MESSAGE value="update string :v" />
     <MESSAGE value="update string :d" />
     <MESSAGE value="update string :))" />
     <MESSAGE value="method" />
@@ -362,6 +362,8 @@
     <MESSAGE value="Inheritance in java :v" />
     <MESSAGE value="up-casting and down-casting :d" />
     <MESSAGE value="up-casting and down-casting :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="up-casting and down-casting :v" />
+    <MESSAGE value="interface in java:v" />
+    <MESSAGE value="interface in java:d" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface in java:d" />
   </component>
 </project>
