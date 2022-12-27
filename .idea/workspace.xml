@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="interface in java:d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Polyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Triangle.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Relationships between objects :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/IEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +40,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Entry4">
-    <configuration name="Entry4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry4" />
+  <component name="RunManager" selected="Application.quiz11">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.B" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Entry7" />
+    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Quiz" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry13 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry13" />
+    <configuration name="Quiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Quiz1" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry13" />
+    <configuration name="quiz11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.quiz11" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entry201" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.entry201" />
+    <configuration name="quiz12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.quiz12" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entry4" />
-        <item itemvalue="Application.entry13 (1)" />
-        <item itemvalue="Application.entry13" />
-        <item itemvalue="Application.entry201" />
-        <item itemvalue="Application.Entry7" />
+        <item itemvalue="Application.quiz11" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.quiz12" />
+        <item itemvalue="Application.Quiz1" />
+        <item itemvalue="Application.Quiz" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671703837399</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Relationships between objects :d">
+      <created>1671853653257</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671853653257</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,8 +338,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update string :d" />
-    <MESSAGE value="update string :))" />
     <MESSAGE value="method" />
     <MESSAGE value="method:v" />
     <MESSAGE value="method update:v" />
@@ -364,6 +361,8 @@
     <MESSAGE value="up-casting and down-casting :v" />
     <MESSAGE value="interface in java:v" />
     <MESSAGE value="interface in java:d" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface in java:d" />
+    <MESSAGE value="Relationships between objects :v" />
+    <MESSAGE value="Relationships between objects :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relationships between objects :d" />
   </component>
 </project>
