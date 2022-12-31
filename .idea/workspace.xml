@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Relationships between objects :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/A.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Ex oop :v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,20 @@
     &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.quiz11">
+  <component name="RunManager" selected="Application.quiz1">
+    <configuration name="ArrayExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArrayExercises" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.B" />
       <module name="FirstJava1" />
@@ -54,21 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Quiz" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Quiz1" />
+    <configuration name="quiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.quiz1" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quiz1" />
+        <item itemvalue="Application.quiz12" />
+        <item itemvalue="Application.ArrayExercises" />
         <item itemvalue="Application.quiz11" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.quiz12" />
-        <item itemvalue="Application.Quiz1" />
-        <item itemvalue="Application.Quiz" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671853653257</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Ex oop :v">
+      <created>1672134351807</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672134351807</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,8 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="method" />
-    <MESSAGE value="method:v" />
     <MESSAGE value="method update:v" />
     <MESSAGE value="method update:d" />
     <MESSAGE value=" for loop ex" />
@@ -363,6 +368,8 @@
     <MESSAGE value="interface in java:d" />
     <MESSAGE value="Relationships between objects :v" />
     <MESSAGE value="Relationships between objects :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relationships between objects :d" />
+    <MESSAGE value="Ex oop" />
+    <MESSAGE value="Ex oop :v" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex oop :v" />
   </component>
 </project>
