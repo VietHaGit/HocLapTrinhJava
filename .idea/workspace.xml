@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Ex oop update :v">
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Ex Basic algorithms :v">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/Bai4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ForEx.java" afterDir="false" />
     </list>
@@ -16,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -40,13 +46,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ForEx">
-    <configuration name="ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ForEx" />
+  <component name="RunManager" selected="Application.Bai4">
+    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.Bai1" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="DSAA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test16 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test16" />
+    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.Bai2" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="DSAA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test16" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.Bai3" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="DSAA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.quiz1" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.Bai4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.*" />
+          <option name="PATTERN" value="DSAA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quiz12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.quiz12" />
+    <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.HelloWord" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.*" />
+          <option name="PATTERN" value="DSAA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForEx" />
-        <item itemvalue="Application.Test16" />
-        <item itemvalue="Application.Test16 (1)" />
-        <item itemvalue="Application.quiz1" />
-        <item itemvalue="Application.quiz12" />
+        <item itemvalue="Application.Bai4" />
+        <item itemvalue="Application.Bai3" />
+        <item itemvalue="Application.Bai2" />
+        <item itemvalue="Application.Bai1" />
+        <item itemvalue="Application.HelloWord" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672474933010</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ex Basic algorithms :v">
+      <created>1672479082243</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1672479082243</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,8 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="method update:d" />
-    <MESSAGE value=" for loop ex" />
     <MESSAGE value=" for loop ex :v" />
     <MESSAGE value=" for loop ex :d" />
     <MESSAGE value=" for loop ex :c" />
@@ -377,6 +388,18 @@
     <MESSAGE value="Ex oop" />
     <MESSAGE value="Ex oop :v" />
     <MESSAGE value="Ex oop update :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex oop update :v" />
+    <MESSAGE value="Ex Basic algorithms" />
+    <MESSAGE value="Ex Basic algorithms :v" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex Basic algorithms :v" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
