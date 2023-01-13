@@ -1,4 +1,4 @@
-package ExOOP;
+package ExOOP.Bai1;
 
 public class Officer {
     protected String name;

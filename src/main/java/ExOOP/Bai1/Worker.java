@@ -1,4 +1,6 @@
-package ExOOP;
+package ExOOP.Bai1;
+
+import ExOOP.Bai1.Officer;
 
 public class Worker extends Officer {
     private int level;

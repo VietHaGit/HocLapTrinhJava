@@ -1,4 +1,4 @@
-package ExOOP;
+package ExOOP.Bai1;
 
 import java.util.Scanner;
 

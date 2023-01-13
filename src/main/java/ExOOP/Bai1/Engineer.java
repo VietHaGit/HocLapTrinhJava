@@ -1,4 +1,4 @@
-package ExOOP;
+package ExOOP.Bai1;
 
 public class Engineer extends Officer {
     private String branch;
@@ -23,6 +23,6 @@ public class Engineer extends Officer {
                 ", age='" + age + '\'' +
                 ", gender='" + gender + '\'' +
                 ", address='" + address + '\'' +
-                ')';
+                '}';
     }
 }
