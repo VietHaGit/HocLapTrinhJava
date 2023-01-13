@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Ex oop :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/ManagerDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai2/Newspaper.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Ex oop update :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/CandidateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/CandidateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/CandidateC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/Bai3/ManagerCandidate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExOOP.Bai2.Main">
-    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.Bai3" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSAA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ExOOP.Bai3.Main">
     <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSAA.Bai5" />
       <module name="FirstJava1" />
@@ -83,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ExOOP.Bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExOOP.Bai3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExOOP.Bai3.Main" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExOOP.Bai3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExOOP.Bai3.Main" />
         <item itemvalue="Application.ExOOP.Bai2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HelloWord" />
         <item itemvalue="Application.Bai5" />
-        <item itemvalue="Application.Bai3" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673593390857</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Ex oop update :d">
+      <created>1673598480727</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1673598480727</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pack , getter, setter :v" />
     <MESSAGE value="pack , getter, setter :d" />
     <MESSAGE value="PTb2 :d" />
     <MESSAGE value=" update PTb2 :d" />
@@ -418,7 +424,6 @@
     <MESSAGE value="Relationships between objects :v" />
     <MESSAGE value="Relationships between objects :d" />
     <MESSAGE value="Ex oop" />
-    <MESSAGE value="Ex oop update :v" />
     <MESSAGE value="Ex Basic algorithms" />
     <MESSAGE value="Ex Basic algorithms :v" />
     <MESSAGE value="Array data structure :v" />
@@ -429,7 +434,9 @@
     <MESSAGE value="DSAA update :d" />
     <MESSAGE value="Ex oop :v" />
     <MESSAGE value="Ex oop :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex oop :d" />
+    <MESSAGE value="Ex oop update :v" />
+    <MESSAGE value="Ex oop update :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex oop update :d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
