@@ -1,4 +1,4 @@
-package DSAA;
+package DSAA.ArrayDataStructure;
 
 import java.util.Scanner;
 // Xóa phần tử trong mảng

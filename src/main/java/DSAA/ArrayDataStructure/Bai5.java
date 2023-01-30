@@ -1,8 +1,9 @@
-package DSAA;
+package DSAA.ArrayDataStructure;
 
 import java.util.Scanner;
 
 public class Bai5 {
+
     // phương thức kiểm tra một số có phải là 1 số nguyên tố hay không
     public static boolean IsPrime(int n){
         if (n < 2){
