@@ -7,9 +7,9 @@ public class Bai1 {
 //        Queue<Integer> queue = new LinkedList<>();
 
 // them cac phan tu(node) vao LinkedList
-        linkedList.add("Dog");
-        linkedList.add("Cat");
-        linkedList.add("Horse");
+//        linkedList.add("Dog");
+//        linkedList.add("Cat");
+//        linkedList.add("Horse");
 //        System.out.println("LinkedList: " + linkedList);
 
 //        LinkedList<String> animals = new LinkedList<>();
@@ -119,7 +119,6 @@ public class Bai1 {
 //        Hàm offer() bổ sung thêm các phần tử cụ thể ở phần cuối của LinkedList.
 //        linkedList.offer("Khanh");
 //        System.out.println(linkedList);
-
 
     }
 
