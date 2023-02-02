@@ -41,6 +41,20 @@ public class Bai5 {
 //        arrayList.set(1,"Thanh Ha");
 //        System.out.println("mang sau khi update la: " + arrayList);
 
+//        for (String item: arrayList){
+//            System.out.println(item);
+//        }
+
+//        Iterator iterator = arrayList.iterator();
+//        while (iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
+
+//        Collections.sort(arrayList);
+//        System.out.println(arrayList);
+//        Collections.sort(arrayList, (o1, o2) -> o2.compareTo(o1));
+//        System.out.println(arrayList);
+
     }
 
 }
