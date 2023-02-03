@@ -10,9 +10,9 @@ public class Main {
         linkedList.add(new Person("d", "hcm", 21));
         linkedList.add(new Person("s", "hcm", 20));
 // sap xep tang dan theo ten
-        Collections.sort(linkedList ,(o1, o2) -> o1.getName().compareTo(o2.getName()));
-// duyet danh sach
-        linkedList.forEach(person -> System.out.println(person.toString()));
+//        Collections.sort(linkedList ,(o1, o2) -> o1.getName().compareTo(o2.getName()));
+//// duyet danh sach
+//        linkedList.forEach(person -> System.out.println(person.toString()));
 
 //        xuất ra danh sách các Person sắp xếp tăng dần theo name, nếu cùng name thì sắp xếp theo age.
 //        linkedList.sort(Comparator.comparing(o -> ((Person)o).getName())
@@ -21,5 +21,11 @@ public class Main {
 
 //        linkedList.removeFirst();
 //       linkedList.forEach(person -> System.out.println(person.toString()));
+
+        linkedList.sort((o1, o2) -> o1.getAge()- o2.getAge());
+
+        linkedList.forEach(person -> System.out.println(person.toString()));
+
+
     }
 }
