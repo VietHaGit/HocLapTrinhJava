@@ -29,5 +29,6 @@ public class Bai2 {
         while (iterator.hasNext()){
             System.out.print(iterator.next() + " ");
         }
+
     }
 }
