@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="giải thuật tìm kiếm :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/BaI2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai1.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="sort :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/BaI2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/BaI2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BaI2">
+  <component name="RunManager" selected="Application.Bai4">
     <configuration name="BaI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.BaI2" />
       <module name="FirstJava1" />
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SearchAlgorithm.Bai5" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai3" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SearchAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SearchAlgorithm.Bai6" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SearchAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai4" />
+        <item itemvalue="Application.Bai3" />
         <item itemvalue="Application.BaI2" />
         <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.Bai7" />
-        <item itemvalue="Application.Bai6" />
-        <item itemvalue="Application.Bai5" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675675082639</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="sort :d">
+      <created>1675848017333</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675848017333</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,8 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ex Basic algorithms :v" />
-    <MESSAGE value="Array data structure :v" />
     <MESSAGE value="Array data structure :d" />
     <MESSAGE value="Ex OOP :v" />
     <MESSAGE value="Ex OOP :d" />
@@ -503,7 +508,9 @@
     <MESSAGE value="LinkedList update :d" />
     <MESSAGE value="giải thuật tìm kiếm :v" />
     <MESSAGE value="giải thuật tìm kiếm :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="giải thuật tìm kiếm :d" />
+    <MESSAGE value="sort :v" />
+    <MESSAGE value="sort :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort :d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

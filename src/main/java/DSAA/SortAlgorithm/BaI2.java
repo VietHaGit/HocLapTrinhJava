@@ -5,11 +5,13 @@ import java.util.Scanner;
 //insertion sort
 public class BaI2 {
     public static void insertionSort(int a[] , int n){
+//        sap xep tang  dan voi dieu kien a[i-1] > a[i]
+//        sap xep giam dan voi dieu kien a[i-1] < a[i]
         int index,value;
-        for (int i = 0; i < n;i++) {
+        for (int i = 1; i < n;i++) {
            index = i;
             value = a[i];
-            while (index > 0 && a[index-1] > value){
+            while (index > 0 && a[index-1] >   value){
                 a[index] = a[index -1];
                 index--;
             }
