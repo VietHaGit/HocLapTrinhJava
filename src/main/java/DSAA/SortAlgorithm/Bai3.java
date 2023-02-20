@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 // SelectionSort
 public class Bai3 {
+    /*
 //    sap xep tang dan bang selection sort vs dieu kien a[i] > a[i+1] ket hop hoan vi
 //    sap xep giam dan bang selection sort vs dieu kien a[i] < a[i+1] ket hop hoan vi
     public static void selectionSort(int a[] , int n){
@@ -38,5 +39,38 @@ public class Bai3 {
         }
         selectionSort(a,n);
         printArray(a,n);
+    }
+     */
+    public static void selectionSort(int[] arr , int n){
+        int indexMin;
+        for (int i = 0 ; i < n;i++){
+            indexMin = i;
+            for (int j = i+1; j<n;j++){
+                if (arr[indexMin]> arr[j]){
+                    indexMin=j;
+                }
+            }
+            if (i !=indexMin){
+                int temp = arr[i];
+                arr[i] = arr[indexMin];
+                arr[indexMin] = temp;
+            }
+        }
+    }
+    public static void printSort(int[] arr, int n){
+        for (int i = 0; i<n;i++){
+            System.out.print(arr[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n ; i++){
+            arr[i] = Sc.nextInt();
+        }
+        selectionSort(arr,n);
+        printSort(arr,n);
     }
 }

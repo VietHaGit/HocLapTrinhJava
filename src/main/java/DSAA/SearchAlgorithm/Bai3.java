@@ -2,6 +2,7 @@ package DSAA.SearchAlgorithm;
 import java.util.*;
 public class Bai3 {
 //    đếm số lần phần tử xuất hiện
+    /*
     public static void main(String[] args) {
         Scanner Sc= new Scanner(System.in);
         int n = Sc.nextInt();
@@ -18,5 +19,22 @@ public class Bai3 {
         }
         System.out.print(count + " ");
     }
+     */
+public static void main(String[] args) {
+    Scanner Sc = new Scanner(System.in);
+    int n = Sc.nextInt();
+    LinkedList<Integer> list = new LinkedList<>();
+    for (int i = 0; i <n;i++){
+        list.add(Sc.nextInt());
+    }
+    int x = Sc.nextInt();
+     int count = 0;
+     for (int i = 0; i<n;i++){
+         if (list.get(i) ==x){
+             count++;
+         }
+     }
+     System.out.print(count + " ");
+}
 }
 
