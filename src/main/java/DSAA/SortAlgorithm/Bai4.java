@@ -48,4 +48,5 @@ public class Bai4 {
         printArr(arr);
         scanner.close();
     }
-}
+    }
+
