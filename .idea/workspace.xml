@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Quick Sort :v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai9.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Quick Sort update :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bai10">
-    <configuration name="Bai10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai10" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai2" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai7" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai3" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai8" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai9" />
+    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai5" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DSAA.SortAlgorithm.Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.TreeDataStructure.Main" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
+          <option name="PATTERN" value="DSAA.TreeDataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bai10" />
-        <item itemvalue="Application.Bai9" />
-        <item itemvalue="Application.Bai8" />
-        <item itemvalue="Application.Bai7" />
-        <item itemvalue="Application.DSAA.SortAlgorithm.Bai4" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Bai5" />
+        <item itemvalue="Application.Bai4" />
+        <item itemvalue="Application.Bai3" />
+        <item itemvalue="Application.Bai2" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669442060337</updated>
-    </task>
-    <task id="LOCAL-00002" summary="buoi1">
-      <created>1669599265373</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669599265374</updated>
     </task>
     <task id="LOCAL-00003" summary="Hihi3">
       <created>1669610650462</created>
@@ -475,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676971001410</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Quick Sort update :d">
+      <created>1677056435696</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1677056435696</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,8 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DSAA update :v" />
-    <MESSAGE value="DSAA update :d" />
     <MESSAGE value="Ex oop :v" />
     <MESSAGE value="Ex oop :d" />
     <MESSAGE value="Ex oop update :v" />
@@ -531,7 +533,9 @@
     <MESSAGE value="Shell Sort :v" />
     <MESSAGE value="Shell Sort :d" />
     <MESSAGE value="Quick Sort :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick Sort :v" />
+    <MESSAGE value="Quick Sort update :v" />
+    <MESSAGE value="Quick Sort update :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick Sort update :d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
