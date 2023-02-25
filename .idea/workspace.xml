@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Quick Sort update :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/RecursiveAlgorithm/Bai6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Tree data structure :d">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai2" />
-      <module name="FirstJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main">
     <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai3" />
       <module name="FirstJava1" />
@@ -117,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.TreeDataStructure.main" />
+      <module name="FirstJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSAA.TreeDataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai4" />
         <item itemvalue="Application.Bai3" />
-        <item itemvalue="Application.Bai2" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669442060337</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Hihi3">
-      <created>1669610650462</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669610650463</updated>
     </task>
     <task id="LOCAL-00004" summary="If and else in java">
       <created>1669712937543</created>
@@ -479,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677056435696</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Tree data structure :d">
+      <created>1677318475406</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318475407</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,8 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ex oop :v" />
-    <MESSAGE value="Ex oop :d" />
     <MESSAGE value="Ex oop update :v" />
     <MESSAGE value="Ex oop update :d" />
     <MESSAGE value="Ex oop update :3" />
@@ -535,7 +527,9 @@
     <MESSAGE value="Quick Sort :v" />
     <MESSAGE value="Quick Sort update :v" />
     <MESSAGE value="Quick Sort update :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick Sort update :d" />
+    <MESSAGE value="Tree data structure :v" />
+    <MESSAGE value="Tree data structure :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree data structure :d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
