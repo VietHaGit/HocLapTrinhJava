@@ -1,5 +1,6 @@
 package DSAA.TreeDataStructure;
 import java.util.Scanner;
+import java.util.*;
 
 /*
 // khai bao mot node trong cua cay
@@ -266,7 +267,8 @@ class main {
         System.out.print(checkAVL(tree.root));
     }
 }
- */
+
+// Biến đổi một cây thành cây Avl , và đếm số bậc của cây đó .
 class node{
     int data;
     node left;
@@ -379,4 +381,208 @@ class main {
         }
         System.out.print(treeLevel(tree.root));
     }
+}
+
+// Tìm kiếm số lần x xuất hiện trong cây.
+class  node{
+    int data;
+    node left;
+    node right;
+
+    node(int data){
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}
+class TREE{
+    node root;
+
+    TREE(){
+        this.root = null;
+    }
+}
+
+class main {
+    public static node insert(node root, int data) {
+        if (root != null) {
+            if (root.data > data)
+                root.left = insert(root.left, data);
+            else
+                root.right = insert(root.right, data);
+            return root;
+        }
+        return new node(data);
+    }
+
+    public static node input(node root){
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        while ((n--) !=0){
+            int data = Sc.nextInt();
+            root = insert(root,data);
+        }
+        Sc.close();
+        return root;
+    }
+    public static int treeLevel(node root){
+        if (root == null) return -1;
+        return 1 + Math.max(treeLevel(root.left),treeLevel(root.right));
+    }
+    public static boolean checkAvl(node root){
+        if (root == null ) return true;
+        if (Math.abs(treeLevel(root.left)-treeLevel(root.right)) > 1) return false;
+        return checkAvl(root.left) &&  checkAvl(root.right);
+    }
+    public static node turnRight(node root){
+        node b = root.left;
+        node d = b.right;
+        root.left = d;
+        b.right=root;
+        return b;
+    }
+    public static node turnLeft(node root){
+        node b = root.right;
+        node c = b.left;
+        root.right = c;
+        b.left = root;
+        return b;
+    }
+    public static void printTree(node root){
+        printTree(root.left);
+        System.out.print(root.data + " ");
+        if (root.left != null)
+            System.out.print(root.left.data);
+        if (root.right!=null)
+            System.out.print(root.right.data);
+        printTree(root.right);
+    }
+    public static node updateTreeAvl(node root){
+        if (Math.abs(treeLevel(root.left) - treeLevel(root.right)) >1){
+            if (treeLevel(root.left) > treeLevel(root.right)){
+                node p = root.left;
+                if (treeLevel(p.left) >= treeLevel(p.right)){
+                    root = turnRight(root);
+                }
+                else {
+                    root.left = turnLeft(root.left);
+                    root = turnLeft(root);
+                }
+            }
+            else {
+                node p = root.right;
+                if (treeLevel(root.right) >= treeLevel(root.left)){
+                    root = turnLeft(root);
+                }
+                else {
+                    root.right = turnRight(root.right);
+                    root = turnLeft(root);
+                }
+            }
+        }
+        if (root.left != null) root.left = updateTreeAvl(root.left);
+        if (root.right != null) root.right = updateTreeAvl(root.right);
+        return root;
+    }
+    public static int count(node root, int x){
+        if (root == null) return 0; // Nếu gốc bằng null thì sẽ trả về x = 0;
+        if (root.data == x) return 1 + count(root.left,x) + count(root.right, x); // nếu trong cây có node = x thì sẽ trả về lần xuất hiện của bên trái + bên phải của cây
+        else if (root.data < x) return count(root.right,x); // nếu giá trị x lớn hơn gốc thì ta sẽ xét bên phải của cây
+        return count(root.left,x);// Ngược lại
+    }
+
+    public static void main(String[] args) {
+        Scanner Sc =new Scanner(System.in);
+        int x;
+        TREE tree = new TREE();
+        tree.root = input(tree.root);
+        while (!checkAvl(tree.root)) {
+            tree.root = updateTreeAvl(tree.root);
+        }
+        x = Sc.nextInt();
+       System.out.print(count(tree.root,x));
+    }
+}
+ */
+class node {
+    int data;
+    node left;
+    node right;
+
+    node(int data){
+        this.data = data;
+        this.left = null;
+        this.right =null;
+    }
+}
+class TREE{
+    node root;
+
+    TREE(){
+        this.root = null;
+    }
+}
+class main{
+        public static node insert(node root, int data){
+          if (root !=null){
+              if (root.data > data)
+                  root.left = insert(root.left,data);
+              else
+                  root.right = insert(root.right,data);
+              return root;
+          }
+        return new node(data);
+        }
+        public static int[] input(Scanner Sc){
+            int n = Sc.nextInt();
+            int a[] = new int[n];
+            for (int i =0; i <n;i++){
+                a[i]= Sc.nextInt();
+            }
+            return a;
+        }
+        public static void display(node root){
+            if (root!= null){
+                display(root.left);
+                System.out.print(root.data+" ");
+                display(root.right);
+            }
+        }
+        public static void deleteNode(node root){
+            if (root !=null){
+                if (root.left!=null)
+                    deleteNode(root.left);
+                if (root.right != null)
+                    deleteNode(root.right);
+            }
+        }
+
+        public static node deleteNumber(node root, int x){
+            if (root != null){
+                if (root.data == x){
+                    deleteNode(root.left);
+                    deleteNode(root.right);
+                    root =null;
+                }
+                else if (root.data > x) root.left = deleteNumber(root.left,x);
+                else root.right = deleteNumber(root.right,x);
+            }
+            return root;
+        }
+
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+         int[] a = input(Sc);
+         TREE tree =new TREE();
+         for (int i = 0; i < a.length;i++){
+             tree.root=insert(tree.root,a[i]);
+         }
+         int x = Sc.nextInt() ;
+         tree.root = deleteNumber(tree.root,x);
+         if (tree.root == null)
+             System.out.print("NULL");
+         else
+             display(tree.root);
+    }
+        
 }
