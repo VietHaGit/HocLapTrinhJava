@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Tree data structure update :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SomeConceptsAboutAlgorithms/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SomeConceptsAboutAlgorithms/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/ShapeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="package-info" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -39,15 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/HocJava/FirstJava1",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Bai2">
+}]]></component>
+  <component name="RunManager" selected="Application.ExOOP.IoCAndDI.Main">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai1" />
       <module name="FirstJava1" />
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.RecursiveAlgorithm.Bai5" />
+    <configuration name="ExOOP.IoCAndDI.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExOOP.IoCAndDI.Main" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.RecursiveAlgorithm.*" />
+          <option name="PATTERN" value="ExOOP.IoCAndDI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExOOP.IoCAndDI.Main" />
         <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Bai5" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669442060337</updated>
-    </task>
-    <task id="LOCAL-00005" summary="loop in java :))">
-      <created>1669779358293</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1669779358293</updated>
     </task>
     <task id="LOCAL-00006" summary="While and do while in java :v">
       <created>1669784932442</created>
@@ -475,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677339568644</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Tree data structure update :d">
+      <created>1677405433069</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1677405433070</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
