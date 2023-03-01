@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="Tree data structure update :d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/ShapeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExOOP/IoCAndDI/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spring/HelloWorld.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="IoC and DI :d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FactorSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/TreeDataStructure/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/HocJava/FirstJava1",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ExOOP.IoCAndDI.Main">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai1" />
@@ -135,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669442060337</updated>
-    </task>
-    <task id="LOCAL-00006" summary="While and do while in java :v">
-      <created>1669784932442</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1669784932442</updated>
     </task>
     <task id="LOCAL-00007" summary="While and do while in java new :v">
       <created>1669857742628</created>
@@ -479,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677405433070</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="IoC and DI :d">
+      <created>1677557527360</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1677557527361</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,8 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ex oop update :3" />
-    <MESSAGE value="Ex oop update :D" />
     <MESSAGE value="DSSA update :3" />
     <MESSAGE value="DSSA update :v" />
     <MESSAGE value="DSSA update :d" />
@@ -535,7 +529,9 @@
     <MESSAGE value="Tree data structure :d" />
     <MESSAGE value="Tree data structure update :v" />
     <MESSAGE value="Tree data structure update :d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree data structure update :d" />
+    <MESSAGE value="IoC and DI :v" />
+    <MESSAGE value="IoC and DI :d" />
+    <option name="LAST_COMMIT_MESSAGE" value="IoC and DI :d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

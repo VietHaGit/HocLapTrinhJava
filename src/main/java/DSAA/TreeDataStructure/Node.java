@@ -1,6 +1,4 @@
 package DSAA.TreeDataStructure;
-import java.util.Scanner;
-import java.util.*;
 
 /*
 // khai bao mot node trong cua cay
@@ -503,7 +501,7 @@ class main {
        System.out.print(count(tree.root,x));
     }
 }
- */
+
 class node {
     int data;
     node left;
@@ -585,4 +583,106 @@ class main{
              display(tree.root);
     }
         
+}
+ */
+class node {
+    int data;
+    node left;
+    node right;
+
+    node(int data){
+        this.data = data;
+        this.left = null;
+        this.right =null;
+    }
+}
+class TREE{
+    node root;
+
+    TREE(){
+        this.root = null;
+    }
+}
+// insert data vao cay
+class main{
+    public static node insert(node root, int data) {
+        if (root != null) {
+            if (root.data > data)
+                root.left = insert(root.left, data);
+            else
+                root.right = insert(root.right, data);
+            return root;
+        }
+        return new node(data);
+    }
+//    Duyet trung thu tu
+    public static void display(node root){
+        if (root != null){
+            display(root.left);
+            System.out.print(root.data + " ");
+            display(root.right);
+        }
+
+    }
+    public static boolean isLeafNode(node root){
+        return (root.left==null && root.right==null);
+    }
+//    Tim so la cua cay
+    public static int countLeafNode(node root){
+        if (root == null) return 0;
+        if (isLeafNode(root)) return 1;
+        return countLeafNode(root.left) + countLeafNode(root.right);
+    }
+//    Tim bac cua cay
+    public static int treeLevel(node root){
+        if (root == null) return -1;
+        return 1 + Math.max(treeLevel(root.left), treeLevel(root.right));
+    }
+//   Check mot cay co phai la cay Avl khong
+    public static boolean checkAvl(node root){
+        if (root == null) return true;
+        if (Math.abs(treeLevel(root.left)) - treeLevel(root.right) > 1) return false;
+        return checkAvl(root.left) && checkAvl(root.right);
+    }
+    public static node turnRight(node root){
+        node b = root.left;
+        node d = b.right;
+        root.left = d;
+        b.right = root;
+        return b;
+    }
+    public static node turnLeft(node root){
+        node b = root.right;
+        node c = b.left;
+        root.right = c;
+        b.left = root;
+        return b;
+    }
+    public static node updateTreeAvl(node root){
+        if (Math.abs(treeLevel(root.left)) - treeLevel(root.right)>1){
+            if (treeLevel(root.left) > treeLevel(root.right)){
+                node p = root.left;
+                if (treeLevel(root.left) >= treeLevel(root.right)){
+                    root = turnRight(root);
+                }
+                else {
+                    root.left = turnLeft(root.left);
+                    root = turnRight(root);
+                }
+            }
+            else {
+                node p = root.right;
+                if (treeLevel(root.right)>= treeLevel(root.left)){
+                    root = turnLeft(root);
+                }
+                else {
+                    root.right = turnRight(root.right);
+                    root = turnLeft(root);
+                }
+            }
+        }
+        if (root.left!= null) root.left = updateTreeAvl(root.left);
+        if (root.right!=null) root.right = updateTreeAvl(root.right);
+        return root;
+    }
 }
