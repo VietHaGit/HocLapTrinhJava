@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment="IoC and DI :v">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SomeConceptsAboutAlgorithms/Bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SomeConceptsAboutAlgorithms/Bai4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSAA/SomeConceptsAboutAlgorithms/Bai5.java" afterDir="false" />
+    <list default="true" id="77e03ab3-dd77-453a-9dbf-29a5a12eb52e" name="Changes" comment=":d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/File_handing/BufferedWriterApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SearchAlgorithm/Bai5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/BaI2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/BaI2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSAA/SortAlgorithm/Bai1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/HocJava/FirstJava1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/HocJava/FirstJava1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Bai5">
+}]]></component>
+  <component name="RunManager" selected="Application.BufferedWriterApp">
     <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai2" />
+      <option name="MAIN_CLASS_NAME" value="DSAA.SearchAlgorithm.Bai2" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SomeConceptsAboutAlgorithms.*" />
+          <option name="PATTERN" value="DSAA.SearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai3" />
+    <configuration name="BufferedWriterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File_handing.BufferedWriterApp" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SomeConceptsAboutAlgorithms.*" />
+          <option name="PATTERN" value="File_handing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai4" />
+    <configuration name="DSAA.SearchAlgorithm.Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.SearchAlgorithm.Bai3" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SomeConceptsAboutAlgorithms.*" />
+          <option name="PATTERN" value="DSAA.SearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSAA.SomeConceptsAboutAlgorithms.Bai5" />
+    <configuration name="DSAA.SearchAlgorithm.Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.SearchAlgorithm.Bai4" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSAA.SomeConceptsAboutAlgorithms.*" />
+          <option name="PATTERN" value="DSAA.SearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExOOP.IoCAndDI.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExOOP.IoCAndDI.Main" />
+    <configuration name="DSAA.SortAlgorithm.Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSAA.SortAlgorithm.Bai1" />
       <module name="FirstJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExOOP.IoCAndDI.*" />
+          <option name="PATTERN" value="DSAA.SortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bai5" />
-        <item itemvalue="Application.Bai4" />
-        <item itemvalue="Application.Bai3" />
-        <item itemvalue="Application.ExOOP.IoCAndDI.Main" />
+        <item itemvalue="Application.BufferedWriterApp" />
+        <item itemvalue="Application.DSAA.SortAlgorithm.Bai1" />
+        <item itemvalue="Application.DSAA.SearchAlgorithm.Bai4" />
+        <item itemvalue="Application.DSAA.SearchAlgorithm.Bai3" />
         <item itemvalue="Application.Bai2" />
       </list>
     </recent_temporary>
@@ -132,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669442060337</updated>
-    </task>
-    <task id="LOCAL-00008" summary="arrays in java :v">
-      <created>1669872479714</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1669872479714</updated>
     </task>
     <task id="LOCAL-00009" summary="max a">
       <created>1669898802300</created>
@@ -476,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677680727428</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary=":d">
+      <created>1677728673555</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1677728673557</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,8 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DSSA update :3" />
-    <MESSAGE value="DSSA update :v" />
     <MESSAGE value="DSSA update :d" />
     <MESSAGE value="ArrayList :v" />
     <MESSAGE value="ArrayList :d" />
@@ -532,7 +538,9 @@
     <MESSAGE value="Tree data structure update :d" />
     <MESSAGE value="IoC and DI :d" />
     <MESSAGE value="IoC and DI :v" />
-    <option name="LAST_COMMIT_MESSAGE" value="IoC and DI :v" />
+    <MESSAGE value=":v" />
+    <MESSAGE value=":d" />
+    <option name="LAST_COMMIT_MESSAGE" value=":d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

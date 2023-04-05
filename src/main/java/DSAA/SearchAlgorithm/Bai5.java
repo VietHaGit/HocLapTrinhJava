@@ -29,29 +29,29 @@ public class Bai5 {
         }
         System.out.print(result);
          */
-         Scanner Sc = new Scanner(System.in);
-         int n = Sc.nextInt();
-         ArrayList<Integer> list = new ArrayList<>();
-         for (int i=0;i<n;i++){
-             list.add(Sc.nextInt());
-         }
-         int l = 0;
-         int r = n -1;
-         int x = Sc.nextInt();
-         int result = -1;
-         while (l<r){
-             int Mid = (l + r)/2;
-             if (list.get(Mid) < x){
-                 l = Mid +1;
-             }
-             else {
-                 r = Mid;
-             }
-         }
-         if (list.get(l) == x){
-             result = l;
-         }
-         System.out.print(result + " ");
-    }
+        Scanner Sc = new Scanner(System.in);
+        int n = Sc.nextInt();
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i< n; i++){
+            list.add(Sc.nextInt());
+        }
 
+        int result = -1;
+        int x = Sc.nextInt();
+        int l =0;
+        int r = n-1;
+        while (l<r){
+            int mid = (l+r)/2;
+            if (list.get(mid) < x){
+                l= mid +1;
+            }
+            else {
+                r = mid;
+            }
+        }
+        if (list.get(l) == x){
+            result = l;
+        }
+        System.out.print(result);
+    }
 }
